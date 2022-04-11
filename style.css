@@ -16,7 +16,7 @@ body{
 
 .main-div{
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
