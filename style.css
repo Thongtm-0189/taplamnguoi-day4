@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aqua;
+    text-align: center;
+}
+html{
+    height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.main-div{
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.sub{
+    margin: 2px;
+    background: rgb(30, 30, 30);
+    width: 17px;
+    height: 17px;
+    border-radius: 3px;
+}
+.title{
+    font-weight: 655;
+    font-size: larger;
+    margin: 10px;
+}
+@media screen and (max-width:1000px) {
+    .main-div{
+        width: 90vw;
+        height: 50vh;
+    }
+    .sub{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 10px #fff;
+    }
+}
